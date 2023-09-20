@@ -2,7 +2,6 @@
 /vendor/
 .editorconfig
 .gitattributes
-
 /web/.csslintrc
 /web/.eslintignore
 /web/.eslintrc.json
@@ -31,3 +30,7 @@
 /web/sites/README.txt
 /web/themes/README.txt
 /web/sites/simpletest
+
+# IDE
+/.idea
+
