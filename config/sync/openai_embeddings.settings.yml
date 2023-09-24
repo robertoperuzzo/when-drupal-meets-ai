@@ -1,5 +1,9 @@
 _core:
   default_config_hash: pan5BW9nidYTAv31bDVBk0ek1Qq7R1sgUjG5RgILzBs
+entity_types:
+  node:
+    article: article
+    page: page
 stopwords:
   - a
   - about

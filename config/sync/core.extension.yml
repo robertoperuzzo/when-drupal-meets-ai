@@ -53,6 +53,10 @@ module:
   path_alias: 0
   prompt: 0
   search: 0
+  search_api: 0
+  search_api_ai: 0
+  search_api_ai_explorer: 0
+  search_api_pinecone: 0
   shortcut: 0
   system: 0
   taxonomy: 0
