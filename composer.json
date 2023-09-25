@@ -18,16 +18,20 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/augmentor": "^1.0",
         "drupal/bpmn_io": "^1.1",
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
         "drupal/core-recommended": "^10.1",
         "drupal/eca": "^1.1",
-        "drupal/openai": "^1.0@alpha",
+        "drupal/openai": "1.0.x-dev",
         "drupal/prompt": "^1.0@dev",
         "drupal/search_api_ai": "^1.0@alpha",
+        "drupal/tmgmt": "^1.15",
+        "drupal/tmgmt_openai": "^1.0@RC",
         "drupal/token": "^1.12",
-        "drush/drush": "^12.2"
+        "drush/drush": "^12.2",
+        "psr/http-message": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"

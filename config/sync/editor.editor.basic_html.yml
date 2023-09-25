@@ -28,7 +28,11 @@ settings:
       - code
       - '|'
       - sourceEditing
+      - openai
+      - augmentor
   plugins:
+    augmentor_ckeditor5_augmentor:
+      augmentors: {  }
     ckeditor5_heading:
       enabled_headings:
         - heading2
@@ -56,6 +60,12 @@ settings:
         - '<h4 id>'
         - '<h5 id>'
         - '<h6 id>'
+    openai_ckeditor_openai:
+      completion:
+        enabled: false
+        model: gpt-3.5-turbo
+        temperature: 0.2
+        max_tokens: 512
 image_upload:
   status: true
   scheme: public
