@@ -34,6 +34,7 @@ settings:
       - codeBlock
       - '|'
       - sourceEditing
+      - openai
   plugins:
     ckeditor5_codeBlock:
       languages:
@@ -93,6 +94,12 @@ settings:
       startIndex: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
+    openai_ckeditor_openai:
+      completion:
+        enabled: false
+        model: gpt-3.5-turbo
+        temperature: 0.2
+        max_tokens: 512
 image_upload:
   status: true
   scheme: public

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e4e38d6f2385d2513ab32df11bf9c51",
+    "content-hash": "7bfb2c36a0bfce9008c55ca3522f72ed",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1331,6 +1331,138 @@
             }
         },
         {
+            "name": "drupal/ai_interpolator",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ai_interpolator.git",
+                "reference": "1.0.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ai_interpolator-1.0.0-alpha2.zip",
+                "reference": "1.0.0-alpha2",
+                "shasum": "078050c0893788d93c5d4346208555c5dcbce5b7"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-alpha2",
+                    "datestamp": "1695319629",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus_Johansson",
+                    "homepage": "https://www.drupal.org/user/385947"
+                }
+            ],
+            "description": "Provides a way to fill structured fields based on AI queries on a textual field.",
+            "homepage": "https://www.drupal.org/project/ai_interpolator",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ai_interpolator"
+            }
+        },
+        {
+            "name": "drupal/ai_interpolator_dreamstudio",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ai_interpolator_dreamstudio.git",
+                "reference": "1.0.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ai_interpolator_dreamstudio-1.0.0-alpha1.zip",
+                "reference": "1.0.0-alpha1",
+                "shasum": "424f1bc1fef4f23a52f072f016fef6264bb10626"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-alpha1",
+                    "datestamp": "1695281698",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus_Johansson",
+                    "homepage": "https://www.drupal.org/user/385947"
+                }
+            ],
+            "description": "Create images from field in the Interpolator from DreamStudio.",
+            "homepage": "https://www.drupal.org/project/ai_interpolator_dreamstudio",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ai_interpolator_dreamstudio"
+            }
+        },
+        {
+            "name": "drupal/ai_interpolator_openai",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ai_interpolator_openai.git",
+                "reference": "1.0.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ai_interpolator_openai-1.0.0-alpha1.zip",
+                "reference": "1.0.0-alpha1",
+                "shasum": "1cb91362c9a7f3df5284bf83ed7436fceac47ff3"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-alpha1",
+                    "datestamp": "1695281568",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus_Johansson",
+                    "homepage": "https://www.drupal.org/user/385947"
+                }
+            ],
+            "description": "Fill in data in the Interpolator from OpenAI GPT.",
+            "homepage": "https://www.drupal.org/project/ai_interpolator_openai",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ai_interpolator_openai"
+            }
+        },
+        {
             "name": "drupal/augmentor",
             "version": "1.0.5",
             "source": {
@@ -2070,6 +2202,54 @@
             ],
             "support": {
                 "source": "https://git.drupalcode.org/project/openai"
+            }
+        },
+        {
+            "name": "drupal/openai_images",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/openai_images.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/openai_images-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "91fd53c812024537efc81307deb6d80f2685a86b"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1694193187",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Joao Silva",
+                    "homepage": "https://www.drupal.org/user/3528448"
+                },
+                {
+                    "name": "nsalves",
+                    "homepage": "https://www.drupal.org/user/3557178"
+                }
+            ],
+            "description": "Provides AI generated images for media from open AI API.",
+            "homepage": "https://www.drupal.org/project/openai_images",
+            "support": {
+                "source": "https://git.drupalcode.org/project/openai_images"
             }
         },
         {
@@ -8265,9 +8445,12 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/ai_interpolator": 15,
+        "drupal/ai_interpolator_openai": 15,
         "drupal/openai": 20,
         "drupal/prompt": 20,
-        "drupal/search_api_ai": 15
+        "drupal/search_api_ai": 15,
+        "drupal/tmgmt_openai": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,
