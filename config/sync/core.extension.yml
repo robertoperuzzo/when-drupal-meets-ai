@@ -4,6 +4,8 @@ module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
   ai_interpolator: 0
+  ai_interpolator_dreamstudio: 0
+  ai_interpolator_openai: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -78,6 +80,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  webprofiler: 0
   content_translation: 10
   views: 10
   standard: 1000

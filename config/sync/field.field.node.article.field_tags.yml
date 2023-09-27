@@ -6,6 +6,22 @@ dependencies:
     - field.storage.node.field_tags
     - node.type.article
     - taxonomy.vocabulary.tags
+  module:
+    - ai_interpolator
+third_party_settings:
+  ai_interpolator:
+    interpolator_enabled: 1
+    interpolator_rule: ai_interpolator_openai_taxonomy
+    interpolator_mode: base
+    interpolator_base_field: title
+    interpolator_prompt: "Based on the context text choose up the {{ max_amount }} categories from the category context that fits the text.\r\n\r\nCategory options:\r\n{{ value_options_comma }}\r\n\r\nContext:\r\n{{ context }}"
+    interpolator_token: ''
+    interpolator_edit_mode: 0
+    interpolator_weight: '100'
+    interpolator_worker_type: direct
+    interpolator_openai_model: gpt-3.5-turbo
+    interpolator_openai_role: ''
+    interpolator_openai_moderation: 1
 _core:
   default_config_hash: QdUgf_beeoaPiyKorFv0q1fcJpWH_uZTqe_xoVJacrw
 id: node.article.field_tags
@@ -25,5 +41,7 @@ settings:
       tags: tags
     sort:
       field: _none
+      direction: asc
     auto_create: true
+    auto_create_bundle: ''
 field_type: entity_reference
