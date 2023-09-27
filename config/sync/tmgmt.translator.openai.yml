@@ -12,8 +12,8 @@ weight: null
 plugin: openai
 settings:
   openai_api_service: openai
-  openai_api_key: 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
-  openai_api_org: org-ta6Bhn3KVCziYKZ5r6a7jbqH
+  openai_api_key: sk-xxx
+  openai_api_org: org-xxx
   openai_api_base_url: ''
   openai_api_version: ''
   openai:
